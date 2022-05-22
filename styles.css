@@ -70,9 +70,31 @@ border-bottom: solid 2px red;
 
 .link--twitter, .link--instagram, .link--facebook {
   align-items: baseline;
- flex-direction: row;
+  flex-direction: row;
 }
 
+.aside--main {
+  background-color: rgb(237, 0, 0);
+  padding: 15px;
+}
+.div--aside__main {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.don--aside__main, .gqs--aside__main, .benevol--aside__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  padding: 30px;
+}
+
+.p--aside__main {
+  padding: 10px;
+  font-size: 20px;
+}
 
 /* main */
 
