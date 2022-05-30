@@ -82,17 +82,21 @@ border-bottom: solid 2px red;
 
 .don--aside__main, .gqs--aside__main, .benevol--aside__main {
   display: flex;
-  flex-direction: column;
-  justify-content: baseline;
+ justify-content: space-around;
   padding: 30px;
 }
 
 .p--aside__main {
   padding: 10px;
   font-size: 20px;
-  border-top: 1px solid red;
+  border-left: 1px solid red;
+  align-items: baseline;
 }
 
+.logo--main {
+  margin: 10px;
+  width: 130px;
+}
 
 /* main */
 
@@ -101,6 +105,9 @@ border-bottom: solid 2px red;
 footer {
   background-color: rgb(35, 37, 57);
   color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* footer */
